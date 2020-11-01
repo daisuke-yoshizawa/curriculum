@@ -26,3 +26,7 @@ var_dump($atstr);
 $re_cities = explode("@", $atstr);
 var_dump($re_cities);
 ?>
+<BR>
+<?php
+echo strtotime("last Sunday");
+?>
